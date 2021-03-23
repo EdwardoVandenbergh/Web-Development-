@@ -1,0 +1,12 @@
+ <!DOCTYPE html>
+ <html>
+ <body>
+ 
+ 
+ <h1>Winc Academy</h1>
+        </head>
+        <body>
+ <h2>Hoofdstuk I</h2>
+        </body>
+ <hr>Het maken van een HTML pagina</hr>
+ </html>
