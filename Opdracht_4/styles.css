@@ -1,0 +1,12 @@
+
+header { 
+    color: blue;
+}
+
+.black-border {
+    border: 5px solid black;
+}
+
+.green-background {
+    background-color: rgb(171, 243, 171);
+}
