@@ -90,8 +90,17 @@ font-size: small;
 
 @media (min-width: 1024px) {
 body {
-    background-color: deeppink;
-    color: yellow;
-    font-size: x-large;
+    background-color: white;
+    color: black;
+    font-size: large;
     line-height: 20px;
+}
+
+.box-2 h1 {
+    font-family: Verdana;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    color: black;
 }

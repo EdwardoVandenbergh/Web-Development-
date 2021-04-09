@@ -6,21 +6,26 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title> Contactformulier </title>
 </head>
-<header class="black-border">
+<header class="box-1">
   <h1>Contactformulier</h1>
 </header>
 <hr />
 
 <body>
-    <form>
-<input type="text" value="Vul hier jouw naam in"/>
-<input type="email"/>
-
-<textarea rows="10" cols="30">
-</textarea>
-
-<input type="submit"/>
-</form>
+    <form name="Contactformulier" method="POST" data-netlify="true">
+        <p>
+        <label>Vul hier jouw naam in: <input type="text" name="name" /></label> 
+    </p>
+    <p>
+        <label>Vul hier jouw e-mail in: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Overige informatie: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Verzenden</button>
+      </p>
+    </form>
   <!-- hier zet je de code in de body tags-->
   
   <nav>
