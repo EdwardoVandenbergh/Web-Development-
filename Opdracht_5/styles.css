@@ -2,10 +2,6 @@ header {
     color: whitesmoke;
 }
 
-.black-border {
-    border: 5px solid black;
-}
-
 .green-background {
     background-color: rgb(171, 243, 171);
 }
@@ -44,6 +40,11 @@ a:active {
     border: 10px lightseagreen solid; 
     padding: 10px 50px 10px 50px; 
     margin: 20px;
+    font-family: Verdana; 
+}
+
+.box-2 nav {
+    font-size: small;
 }
 
 .box-2 h2 {
@@ -72,8 +73,17 @@ a:active {
 
 .categories ul {
 list-style: none;
+font-family: Verdana;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
+}
+
+.navigation-links li { 
+display: inline;
+font-family: Verdana;
+margin: 10px; 
+font-size: small;
+}
