@@ -1,0 +1,97 @@
+header { 
+    color: whitesmoke;
+}
+
+.green-background {
+    background-color: rgb(171, 243, 171);
+}
+
+.box-1 {
+    background-color: darkgreen;
+    border: 10px lightseagreen solid; 
+    padding: 10px 50px 10px 50px; 
+    margin: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: rgb(7, 243, 7);
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 h1 {
+    font-family: Verdana;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.box-2 {
+    background-color: white;
+    border: 10px lightseagreen solid; 
+    padding: 10px 50px 10px 50px; 
+    margin: 20px;
+    font-family: Verdana; 
+}
+
+.box-2 nav {
+    font-size: small;
+}
+
+.box-2 h2 {
+    font-family: Verdana;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.box-2 p {
+    font-family: Verdana;
+    font-weight: 800;
+    text-align: left;
+}
+
+.box-2 ul {
+    font-family: Verdana;   
+    text-align: left;
+}
+
+.box-2 li {
+    font-family: Verdana;
+    text-align: left;
+}
+
+.categories ul {
+list-style: none;
+font-family: Verdana;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation-links li { 
+display: inline;
+font-family: Verdana;
+margin: 10px; 
+font-size: small;
+}
+
+@media (min-width: 1024px) {
+body {
+    background-color: deeppink;
+    color: yellow;
+    font-size: x-large;
+    line-height: 20px;
+}
