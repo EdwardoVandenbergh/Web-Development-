@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- hier zet je de code in de head tags -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title> Contactformulier </title>
+</head>
+<header class="box-1">
+  <h1>Contactformulier</h1>
+</header>
+<hr />
+
+<body>
+    <form name="Contactformulier" method="POST" data-netlify="true">
+        <p>
+        <label>Naam: <input type="text" name="name" /></label> 
+    </p>
+    <p>
+        <label>E-mail: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Mobiele nummer: <input type="tel" name="tel" /></label>
+      </p>
+      <p>
+        <label>Leeftijd: <input type="number" name="age" min="1" max="100"/></label>
+        </p>
+        <p>
+          <label>Geboortedatum: <input type="date" name="gender" min="1921-01-01" max="2021-12-31"/></label>
+          </p>
+          <div>Geslacht:</div>
+          <p>
+            <label>Man: <input type="radio" name="date" value="male"/></label>
+            </p>
+            <p>
+              <label>Vrouw: <input type="radio" name="date" value="female"/></label>
+              </p>
+              <div>Favoriete land:</div>
+              <p>
+              <label>Sri Lanka: <input type="checkbox" name="Sri_Lanka"/></label>
+            </p>
+            <p>
+              <label>Thailand: <input type="checkbox" name="Thailand"/></label>
+              </p>
+              <p>
+                <label>Cambodia: <input type="checkbox" name="Cambodia"/></label>
+                </p>
+                <div>Favoriete kleur backpack:</div>
+                <p>
+                  <label>Kleur: <input type="color" name="color"/></label>
+                  </p>
+                  <p>
+                    <label>Biografie: <input type="textarea" name="Biografie"></label>
+                    </p>
+                <p>
+                  <label>Upload je leukste backpack foto: <input type="file" name="file"></label>
+                  </p>
+                  <p>
+                    <label>Heb je een eigen blog? Vul je URL dan in <input type="url" name="url"></label>
+                    </p>
+      <p>
+        <label>Overige informatie: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+      <button type="reset">Reset</button>
+    </p>
+    <p>
+        <button type="submit">Verzenden</button>
+      </p>
+    </form>
+  <!-- hier zet je de code in de body tags-->
+  
+  <nav>
+    <a href="./Index.html">
+      <h4>Home</h4>
+    </a>
+  </nav>
+</body>
+
+</html>
